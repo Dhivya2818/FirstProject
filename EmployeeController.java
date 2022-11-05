@@ -37,7 +37,6 @@ public class EmployeeController {
 	}
 	@DeleteMapping(value="/deleteall")
 	public String deleteall() {
-//		return empser.deleteall();
 		return empser.deleteall();
 	}
 	

@@ -16,6 +16,13 @@ public class Employee {
 	private String gender;
 	private int age;
 	private int salary;
+	private int empcode;
+	public int getEmpcode() {
+		return empcode;
+	}
+	public void setEmpcode(int empcode) {
+		this.empcode = empcode;
+	}
 	public int getId() {
 		return id;
 	}
